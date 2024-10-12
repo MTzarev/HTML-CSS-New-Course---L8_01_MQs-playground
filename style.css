@@ -1,0 +1,16 @@
+@media (min-width: 600px){
+    .mq-width span::after{
+        content: ":Viewport width is larget than 600px"
+    } 
+    
+}
+@media (min-height: 600px){
+    .mq-height span::after{
+        content: ": Viewport height is larget than 600px"
+    }
+}
+@media (aspect-ratio: 8/5){
+    .mq-ar span::after{
+        content:": Aspect Ratio is larget than 8/5"
+    }
+}
